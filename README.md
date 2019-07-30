@@ -1,4 +1,4 @@
-# video-slide-matching
+# Automation of Video Slide Matching
 
 ### Image Contrast Enhancement using CLAHE(Contrast Limited Adaptive Histogram Equalisation) on LAB color space
 One important aspect of the frames from the videos is the fact that they are usually shot with cameras with low dynamic range or low quality, such that colors become faded and much contrast is lost. This fact led us to use CLAHE technique on the LAB color space to enhance our contrast. The method is useful in images with backgrounds and foregrounds that are both bright or both dark. Like in the latest episode of GOT people were complaining of the darkness (low light) of episode which resulted in very less visible detail. So this technique can help increase contrast and hence detail but there is a drawback it may increase the contrast of background noise, while decreasing the usable signal.
